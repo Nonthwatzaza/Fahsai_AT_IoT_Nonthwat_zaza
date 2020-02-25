@@ -75,8 +75,7 @@ void loop() {
     float LS = analogRead(D2)*(1);
         Serial.print("Recieved LDR D2: ");
         Serial.println(LS);
-      anto.pub("LDR",LDR);
-              Serial.println(LDR000000000000000000000000000000000                                                                                                                                                                                                                                                                                                                    );
+      anto.pub("LDR",LDR);                                                                                                                                                                                                                                                                                                                 );
         delay (3000);
 // END OF LDR LOOP
 
